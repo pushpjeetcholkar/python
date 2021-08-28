@@ -1,0 +1,44 @@
+num1 = input("Give first number")
+num2 = input("Give Second number")
+result = num1+num2
+print("Sum of the two number is " + result)
+
+num1 = int(input("Give first number"))
+num2 = int(input("Give Second number"))
+result = num1 + num2
+print("Sum of the two number is " + result)
+
+# Store input numbers
+num1 = input('Enter first number: ')
+num2 = input('Enter second number: ')
+
+# Add two numbers
+sum = float(num1) + float(num2)
+
+# Display the sum
+print('The sum of {0} and {1} is {2}'.format(num1, num2, sum))
+
+Python String format() Method
+================================
+txt = "For only {price:.2f} dollars!"
+print(txt.format(price = 49))
+
+Definition and Usage
+----------------------
+The format() method formats the specified value(s) and insert them inside the string's placeholder.
+
+The placeholder is defined using curly brackets: {}. 
+The format() method returns the formatted string.
+
+
+The Placeholders
+---------------------
+The placeholders can be identified using named indexes {price}, numbered indexes {0}, or even empty placeholders {}.
+
+Example
+--------
+Using different placeholder values:
+
+txt1 = "My name is {fname}, I'm {age}".format(fname = "John", age = 36)
+txt2 = "My name is {0}, I'm {1}".format("John",36)
+txt3 = "My name is {}, I'm {}".format("John",36)
