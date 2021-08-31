@@ -1,8 +1,8 @@
 Welcome to Python tutorial.
 
-loops
+1) loops
+2) conditions
+3) Collection
 
-conditions
 
-Collection
-
+Thank you and happy learning. 
