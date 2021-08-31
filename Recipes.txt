@@ -3,3 +3,6 @@ Welcome to Python tutorial.
 loops
 
 conditions
+
+Collection
+
